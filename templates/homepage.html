@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awesome files -->
+    <script src="https://kit.fontawesome.com/923cdab41f.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <!-- Photo Source -->
+    <!-- https://www.pexels.com/ -->
+    <!-- For UX color -->
+    <!-- https://coolors.co/ -->
+
+    <title>Homepage</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-light navbar-expand-sm py-2">
+        <!-- logo -->
+        <!-- <a href="#" type="button" class="btn btn-outline-dark btn-lg navbar-brand">Text Extractor</a> -->
+        <a href="#" class=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#tech" class="nav-link">Technology</a></li>
+                <li class="nav-item"><a href="#usage" class="nav-link">How to Use</a></li>
+                <!-- <li class="nav-item"><a href="/authorize" class="nav-link">Login</a></li> -->
+                <li class="nav-item"><a href="#team" class="nav-link">About Us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- Header with Home Section -->
+    <header id="home" class="bg-dark">
+        <div class="container h-100 p-5">
+            <div class="row height align-items-center justify-content-center ">
+                <div class="col-8 pt-5, pb-5">
+                    <p class="display-2 text-danger text-bold pt-3"> Text <small class="text-white">Extractor</small></p>
+                    <p class="text-muted lead pt-3 pb-5">Extract text from PDF and images using Optical Character Recognition </p>
+                    <!-- <a href="#" type="button" class="btn btn-outline-danger btn-lg m-2">Sign Up here</a>
+                    <a href="#" type="button" class="btn btn-outline-danger btn-lg m-2">Login Here</a><br> -->
+                    <a href="/authorize" type="button" class="btn btn-outline-danger btn-lg m-2">
+                        <small class="display-3">Start Extracting Now </small>
+                        <i class="fa fa-bolt fa-4x" aria-hidden="true"></i>
+                    </a><br>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Home Section -->
+
+    <!-- Technology-->
+    <section id="tech" class='bg-danger'>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <!-- title section -->
+                <div class="col-12 display-1 pt-5 ">
+                    <div class="title-underline">State of Art Technology</div>
+                </div>
+
+                <div class="col-12 p-5"></div>
+
+                <div class="col-sm-6 col-md-4 p-5">
+                    <i class="fa fa-google fa-5x aria-hidden="true"></i>
+                    <h1 class="text-dark p-2">G Vision</h1>
+                    <p class="text-dark lead">Google Vision For State of Art Character Recognition Trained with Million of Datasets</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-5">
+                        <i class="fab fa-python fa-5x"></i>
+                        <h1 class="text-dark p-2">Django</h1>
+                        <p class="text-dark lead">Django Secure Framework for Tons of Extendability</p>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4 p-5">
+                    <i class="fab fa-docker fa-5x"></i>
+                    <h1 class="text-dark p-2">Docker</h1>
+                    <p class="text-dark lead">Containerization for Scale Up with Ease. Easy Container Deployment.</p>
+                </div>
+
+                <div class="col-12 pb-5 lead">
+                    All the codes can be found in Github
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of technology section -->
+
+   <!-- start How to Use section -->
+    <section id="usage" class="bg-dark height text-center">
+        <div class="container">
+            <!-- project title -->
+            <div class="row">
+                <div class="col display-3 p-3 text-light text-bold">
+                    How to Use This Tool
+                    <i class="fa fa fa-play fa-x" aria-hidden="true"></i><br>
+                </div>
+            </div>
+            <!-- project title end -->
+            <div class="row">
+                <!-- start of single project -->
+                <div class="col-ms-12 col-md-12 p-5"></div>
+                <div class="col-ms-12 col-md-12 p-5"></div>
+                <div class="col-ms-12 col-md-12 p-5"></div>
+                <div class="col-ms-12 col-md-12 p-5"></div>
+                <div class="col-ms-12 col-md-12 p-5"></div>
+                <div class="col-ms-12 col-md-12 p-5"></div>
+                <!-- end of single project -->
+            </div>
+        </div>
+    </section>
+    <!-- end project section -->
+
+    <!-- start of team member section -->
+    <section id="team">
+        <div class="container">
+            <!-- title -->
+            <div class="row text-center">
+                <div class="col display-3 p-5">
+                    Contributors<br>
+                    <div class="title-underline bg-warning"></div>
+                    <div class="text-uppercase text-muted p-4 h5">This project was originially started as Course Project. We are still looking for contributor to help us maintain this project. </div>
+                </div>
+            </div>
+            <!-- project title end -->
+           <!-- start profile card -->
+            <div class="row">
+                <div class="col-md-6 col-lg-4 py-4">
+                    <div class="card">
+                        <!-- <img src="./imgs/badhan.jpg" alt="Photo of The Person" class="card-img-top"> -->
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalized">Badhan Saha</h5>
+                            <h6 class="card-text lead text-muted">Worked in Service Backend and With Django Framework</h6>
+                        </div>
+                        <div class="card-footer bg-secondary d-flex justify-content-around">
+                            <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x text-dark"></i></a>
+                            <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x text-dark"></i></a>
+                            <a href="https://www.youtube.com"><i class="fab fa-youtube fa-2x text-dark"></i></a>
+                            <a href="https://www.google.com"><i class="fab fa-google fa-2x text-dark"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 py-4">
+                        <div class="card">
+                            <!-- <img src="./imgs/hkmehedi.jpg" alt="Photo of The Person" class="card-img-top"> -->
+                            <div class="card-body">
+                                <h5 class="card-title text-capitalized">H. K. Mehedi</h5>
+                                <h6 class="card-text lead text-muted">Worked in the dashboard in input output area</h6>
+                            </div>
+
+                            <div class="card-footer bg-secondary d-flex justify-content-around">
+                              <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x text-dark"></i></a>
+                              <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x text-dark"></i></a>
+                              <a href="https://www.youtube.com"><i class="fab fa-youtube fa-2x text-dark"></i></a>
+                              <a href="https://www.google.com"><i class="fab fa-google fa-2x text-dark"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-4">
+                            <div class="card">
+                                <!-- <img src="./imgs/kamrul.jpg" alt="Photo of The Person" class="card-img-top"> -->
+                                <div class="card-body">
+                                    <h5 class="card-title text-capitalized">Kamrul Hasan</h5>
+                                    <h6 class="card-text lead text-muted">Worked in the UI design part. Created the Homepage etc</h6>
+                                </div>
+                                <div class="card-footer bg-secondary d-flex justify-content-around">
+                                  <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x text-dark"></i></a>
+                                  <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x text-dark"></i></a>
+                                  <a href="https://www.youtube.com"><i class="fab fa-youtube fa-2x text-dark"></i></a>
+                                  <a href="https://www.google.com"><i class="fab fa-google fa-2x text-dark"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 py-4">
+                                <div class="card">
+                                    <!-- <img src="./imgs/a.jpg" alt="Photo of The Person" class="card-img-top"> -->
+                                    <div class="card-body">
+                                        <h5 class="card-title text-capitalized">Farhan Zahin</h5>
+                                        <h6 class="card-text lead text-muted">Worked in frontend development</h6>
+                                    </div>
+                                    <div class="card-footer bg-secondary d-flex justify-content-around">
+                                      <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x text-dark"></i></a>
+                                      <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x text-dark"></i></a>
+                                      <a href="https://www.youtube.com"><i class="fab fa-youtube fa-2x text-dark"></i></a>
+                                      <a href="https://www.google.com"><i class="fab fa-google fa-2x text-dark"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+            </div>
+            <!-- end profile card -->
+        </div>
+    </section>
+ <!-- Footer -->
+    <footer id="footer" class="bg-dark p-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col display-3 p-5 text-center text-white">
+                    The Extractor Project <br>
+                    <div class="title-underline bg-primary"></div>
+                    <div class="text-uppercase text-muted p-2 h5"> Follow our offical Extractor Page on Facebook, Twitter, Youtube and Google</div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-around pb-5">
+                <div class="col-8">
+                    <a href="https://www.facebook.com" class="btn"><i class="fab fa-facebook fa-3x text-danger"></i></a>
+                    <a href="https://www.twitter.com" class="btn"><i class="fab fa-twitter fa-3x  text-danger"></i></a>
+                    <a href="https://www.youtube.com" class="btn"><i class="fab fa-youtube fa-3x  text-danger"></i></a>
+                    <a href="https://www.google.com" class="btn"><i class="fab fa-google fa-3x   text-danger"></i></a>
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-8">
+                    <!-- <button type="button" data-toggle="modal" data-target="#mod" class="btn btn-danger btn-lg text-white">Log in</a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal fade" id="mod">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- header -->
+                <div class="modal-header">
+                    <h3 class="modal-title">So sorry to see you leave</h3>
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- body -->
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, dolor.</p>
+                </div>
+
+                <!-- footer -->
+                <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-danger">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of team member section -->
+  <!-- Bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Custom js files -->
+    <!-- <script src="./js/script.js"></script> -->
+</body>
+</html>

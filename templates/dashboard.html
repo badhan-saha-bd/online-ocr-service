@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>dashboard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/onlydashboard.css' %}">
+
+  </head>
+<body>
+  <form method="POST" action="/output" enctype="multipart/form-data">
+  {% csrf_token %}
+  <input type="file" name="myfile">
+  <p>Drag your files here or click in this area.</p>
+  <button type="submit">Convert</button>
+</form>
+<script src="{% static 'js/onlydashboard.js'%}"></script>
+</body>
+</html>

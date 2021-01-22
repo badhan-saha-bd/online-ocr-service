@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>Output</title>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/output.css' %}">
+
+    </head>
+
+    <body class="is-preload" align="center">
+       <!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+
+
+                        <center>
+                        <p style="font-size: 50px;font-style: italic"><u>Extracted Text Below</u></p>
+                        <textarea  cols="num" rows="num">{{ result }}</textarea>
+
+                        </center>
+
+                    </section>
+
+
+
+
+
+			</div>
+
+
+
+    </body>
+
+</html>

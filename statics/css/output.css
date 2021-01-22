@@ -1,0 +1,218 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@badhans
+badhans
+/
+software-engineering
+Private
+1
+01
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+software-engineering/Mehedi/styles.css
+@hithub10 hithub10 change button icon
+8467093 3 hours ago
+180 lines (134 sloc)  3.97 KB
+
+
+
+
+
+	html {
+		box-sizing: border-box;
+        height: 100%;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
+
+
+textarea {
+    
+    text-align:justify;
+    width: 1680px;
+    height: 800px;
+    background-color:rgb(255, 255, 128);
+    font-size:25px;
+    font-family:Arial;
+
+
+}
+
+	body {
+		height: 100%;
+		background-color: #ffffff;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-repeat: repeat,			no-repeat,			no-repeat;
+		background-size: 100px 100px, cover,				cover;
+		background-position: top left,		center center,		bottom center;
+		background-attachment: fixed,			fixed,				fixed;
+	}
+
+		body:after {
+			content: '';
+			display: block;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: inherit;
+			opacity: 0;
+			z-index: 1;
+			background-color: #ffffff;
+			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-repeat: repeat,			no-repeat;
+			background-size: 100px 100px, cover;
+			background-position: top left,		center center;
+			-moz-transition: opacity 1.75s ease-out;
+			-webkit-transition: opacity 1.75s ease-out;
+			-ms-transition: opacity 1.75s ease-out;
+			transition: opacity 1.75s ease-out;
+		}
+
+		body.is-preload:after {
+			opacity: 1;
+		}
+
+
+
+
+
+
+
+
+table, th, td {
+
+
+
+    text-align:center;
+     padding-right: 10px;
+
+    height: 100px;
+    width: 200px;
+
+
+}
+
+
+
+
+body{
+    height: auto;
+    width: auto;
+    background-color:#f6f5f7;
+     justify-content: center;
+
+
+}
+
+
+p{
+    padding-top: 00px;
+}
+h2{
+     padding-top: 30px;
+    color: red;
+}
+
+
+
+
+.myButton {
+	box-shadow:inset 0px -5px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:16px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:20px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.myButton1 {
+	box-shadow:inset 0px -5px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:16px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 42px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+input[type="file"] {
+  z-index: -1;
+  position: absolute;
+  opacity: 0;
+}
+
+input:focus + label {
+  outline: 2px solid;
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
